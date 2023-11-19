@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background: url('/assets/img/background.jpg');
+}
+
+
+img{
+    height: 25px;
+    opacity: 0;
+}
+
+.container{
+    width: 500px;
+    background: lightgray;
+    padding: 30px;
+    border: none;
+    border-radius: 5px ;
+    margin: 100px auto 0;
+}
+
+.input-task{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+.btm-add-task{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    padding: 0 20px 0;
+    background-color: #556B2F		;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btm-add-task:hover{
+    opacity: 0.8;
+}
+
+.btm-add-task:active{
+    opacity: 0.6;
+}
+
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task:hover img{
+    opacity: 1;
+}
+
+.done{
+    background-color: #6fa716;
+    text-decoration: line-through;
+    color: #fff;
+}
